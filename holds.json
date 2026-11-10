@@ -1,3 +1,16 @@
 [
-  {"nom": "Sainte-Perpétue", "lieu": "Sainte-Perpétue", "proj": "80s", "date": null, "note": "novembre 2027 — date à confirmer"}
+ {
+  "nom": "Sainte-Perpétue",
+  "lieu": "Sainte-Perpétue",
+  "proj": "80s",
+  "date": null,
+  "note": "novembre 2027 — date à confirmer"
+ },
+ {
+  "nom": "Espace Sofia",
+  "lieu": "",
+  "proj": "80s",
+  "date": "2028-02-05",
+  "note": "hold de Philippe — en attente des disponibilités"
+ }
 ]
