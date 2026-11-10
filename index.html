@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dates de spectacles — 80's Rock Show & Blood Brothers</title>
+<style>
+body{background:#111;color:#eee;font-family:system-ui,sans-serif;margin:0;padding:24px;max-width:760px;margin-inline:auto}
+h1{font-size:1.5rem;margin-bottom:4px} h2{margin-top:32px;border-bottom:2px solid #e33;padding-bottom:4px}
+.sub{color:#aaa;margin-top:0}
+ul{list-style:none;padding:0} li{display:flex;gap:12px;align-items:baseline;padding:9px 10px;border-bottom:1px solid #2a2a2a;flex-wrap:wrap}
+.d{color:#f5c542;font-weight:600;min-width:150px} .n{flex:1}
+.b{font-size:.75rem;padding:2px 8px;border-radius:10px;background:#333;color:#fff}
+.b-80s{background:#7a1fa2} .b-maiden{background:#b71c1c}
+.filtres button{background:#222;color:#eee;border:1px solid #444;border-radius:16px;padding:6px 14px;margin-right:8px;cursor:pointer}
+.filtres button.on{background:#e33;border-color:#e33}
+footer{color:#888;margin-top:36px;font-size:.85rem}
+</style></head><body>
+<h1>Dates de spectacles</h1>
+<p class="sub">The 80's Rock Show · Blood Brothers (hommage à Iron Maiden)</p>
+<div class="filtres">
+<button class="on" onclick="f('tous',this)">Tous</button><button onclick="f('80s',this)">80's</button><button onclick="f('maiden',this)">Maiden</button>
+</div>
+<h2>Confirmées</h2>
+<ul>
+<li data-proj="80s"><span class="d">ven. 13 nov. 2026</span><span class="n">L&#x27;Anglicane — Lévis</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 21 nov. 2026</span><span class="n">Port-Cartier</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 28 nov. 2026</span><span class="n">Alma</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 5 déc. 2026</span><span class="n">Alma</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">ven. 8 janv. 2027</span><span class="n">Salon de jeux de Trois-Rivières — Trois-Rivières</span><span class="b b-80s">80’s</span></li>
+<li data-proj="maiden"><span class="d">ven. 15 janv. 2027</span><span class="n">Salon de jeux de Trois-Rivières — Trois-Rivières</span><span class="b b-maiden">Maiden</span></li>
+<li data-proj="80s"><span class="d">sam. 30 janv. 2027</span><span class="n">Chasse galerie — Lavaltrie</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">ven. 5 févr. 2027</span><span class="n">Salle Montaigne — Québec, QC, Canada</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 6 févr. 2027</span><span class="n">Vieux théâtre de La Baie — La Baie, Saguenay, QC, Canada</span><span class="b b-80s">80’s</span></li>
+<li data-proj="maiden"><span class="d">sam. 20 févr. 2027</span><span class="n">Salle Jean-Michel Bergot — Sainte-Thérèse</span><span class="b b-maiden">Maiden</span></li>
+<li data-proj="80s"><span class="d">sam. 20 mars 2027</span><span class="n">Coaticook</span><span class="b b-80s">80’s</span></li>
+<li data-proj="maiden"><span class="d">ven. 2 avr. 2027</span><span class="n">Granby</span><span class="b b-maiden">Maiden</span></li>
+<li data-proj="80s"><span class="d">sam. 17 avr. 2027</span><span class="n">Théâtre de la Providence — Longueuil, QC, Canada</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">jeu. 13 mai 2027</span><span class="n">La petite Église — Saint-Eustache</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">ven. 14 mai 2027</span><span class="n">Rivière-du-Loup</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 15 mai 2027</span><span class="n">Beauceville</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">ven. 4 juin 2027</span><span class="n">Salle Kingsey — Kingsey Falls, QC, Canada</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">ven. 2 juill. 2027</span><span class="n">Témiscouata</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 7 août 2027</span><span class="n">Truckfest</span><span class="b b-80s">80’s</span></li>
+<li data-proj="maiden"><span class="d">sam. 11 sept. 2027</span><span class="n">La Baie</span><span class="b b-maiden">Maiden</span></li>
+<li data-proj="80s"><span class="d">sam. 18 sept. 2027</span><span class="n">Victoriaville</span><span class="b b-80s">80’s</span></li>
+<li data-proj="maiden"><span class="d">ven. 1 oct. 2027</span><span class="n">Salle Kingsey — Kingsey Falls</span><span class="b b-maiden">Maiden</span></li>
+<li data-proj="80s"><span class="d">sam. 2 oct. 2027</span><span class="n">Saint-Jean-sur-Richelieu</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 9 oct. 2027</span><span class="n">Cowansville</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">sam. 30 oct. 2027</span><span class="n">Rock sur la montagne — Victoriaville</span><span class="b b-80s">80’s</span></li>
+<li data-proj="80s"><span class="d">ven. 17 déc. 2027</span><span class="n">Pointe Valaine — Otterburn Park</span><span class="b b-80s">80’s</span></li>
+<li data-proj="maiden"><span class="d">ven. 10 mars 2028</span><span class="n">Grey Rock Casino — Edmundston</span><span class="b b-maiden">Maiden</span></li>
+<li data-proj="80s"><span class="d">sam. 11 mars 2028</span><span class="n">Grey Rock Casino — Edmundston</span><span class="b b-80s">80’s</span></li>
+</ul>
+<h2>En hold</h2>
+<ul>
+<li data-proj="80s"><span class="d">novembre 2027 — date à confirmer</span><span class="n">Sainte-Perpétue</span><span class="b b-80s">80’s</span></li>
+</ul>
+<footer>Source : calendrier « Spectacles » de Danny Bédard — page en lecture seule, mise à jour le 10 novembre 2026.</footer>
+<script>
+function f(p,btn){document.querySelectorAll('.filtres button').forEach(b=>b.classList.remove('on'));btn.classList.add('on');
+document.querySelectorAll('li[data-proj]').forEach(li=>{li.style.display=(p=='tous'||li.dataset.proj==p)?'flex':'none'})}
+</script>
+</body></html>
